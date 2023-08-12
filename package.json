@@ -1,0 +1,21 @@
+{
+  "name": "magenta-theme",
+  "displayName": "Magenta Theme",
+  "description": "its not purple its magenta. i dont understand colors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "magenta-theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/magenta-theme-color-theme.json"
+      }
+    ]
+  }
+}
